@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.match-text-col {
+    line-height: 36px;
+}
+
+#upload-div {
+    cursor: default;
+    user-select: none;
+}
+
+#upload-div-inner {
+    user-select: text;
+    cursor: auto;
+}
+
+#upload-div-inner.noevt {
+    pointer-events: none;
+}
+
+#main.onuploaditemdrag {
+    background: #ff0;
+}
+
+#upform {
+    display: none;
+}
